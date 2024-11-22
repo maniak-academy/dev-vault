@@ -1,6 +1,6 @@
 services:
   vault:
-    image: vault:latest
+    image: hashicorp/vault:latest
     container_name: vault-dev
     command: server -dev -dev-root-token-id="root"
     environment:
